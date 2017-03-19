@@ -3,7 +3,6 @@ import os
 import argparse
 
 
-
 def load_image(filepath):
 
     if not os.path.exists(filepath):
