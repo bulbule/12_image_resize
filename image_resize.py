@@ -78,6 +78,7 @@ def check_proportions(resize_params, image):
     new_scale = resize_params['width'] / resize_params['height']
     if not math.isclose(original_scale, new_scale, rel_tol=1e-2):
         print('Warning: original proportions will not be preserved.')
+        
 
 if __name__ == '__main__':
     args = get_args()
